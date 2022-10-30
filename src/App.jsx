@@ -49,8 +49,10 @@ function App() {
         </p>
         <button onClick={() => setIsdecimeter(!isDecimeter)}>
           Change meight</button>
-        <button onClick={chagePokemon}>Change pokemon</button>
+        
       </div>
+      <br />
+      <button onClick={chagePokemon}>Change pokemon</button>
 
     </div>
   )
